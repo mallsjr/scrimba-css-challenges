@@ -1,0 +1,28 @@
+/* DON'T TOUCH THIS! */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+/* DON'T TOUCH THIS! */
+
+.navbar {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  background: blanchedalmond;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.title {
+  margin-top: 0;
+}

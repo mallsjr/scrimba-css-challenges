@@ -1,0 +1,29 @@
+/* DON'T TOUCH THIS! */
+body {
+  height: 100vh;
+  background-color: #222;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+  grid-gap: 1vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tile {
+  border: 1px solid white;
+  border-radius: 20px;
+  transition: all 1s;
+  transform: scale(1);
+}
+/* DON'T TOUCH THIS! */
+
+.tile:hover {
+  background-color: white;
+  transform: scale(1.25);
+}

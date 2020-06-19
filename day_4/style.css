@@ -1,0 +1,58 @@
+/* DON'T TOUCH THIS! */
+body {
+  margin: 0;
+  padding: 0;
+  background: #474747;
+}
+
+.squares {
+}
+
+div[class^='square'] {
+  height: 25vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.square1 {
+  background: #ffa9a3;
+}
+
+.square2 {
+  background: #4e82c2;
+}
+
+.square3 {
+  background: #4ec267;
+}
+
+.square4 {
+  background: #f2fa87;
+}
+
+/* DON'T TOUCH THIS! */
+.square2 {
+  animation: test 1s;
+  animation-fill-mode: forwards;
+}
+
+.square3 {
+  animation-name: test;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.square4 {
+  animation-name: test;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes test {
+  to {
+    background: #ffa9a3;
+  }
+}
